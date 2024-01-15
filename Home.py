@@ -20,7 +20,8 @@ with col2:
         commitment to practical applications.
     """
     content2 = """
-        Want to no more about me in no less than a time, feel free to read my CV using the link below. 
+        Curious to learn more about me in a short span of time? 
+        Please feel free to explore my CV by following the link below. 
     """
     st.markdown(
         f"""
@@ -40,14 +41,14 @@ with col2:
 st.markdown("<hr style='border: 1px solid #292929;'>", unsafe_allow_html=True)
 
 with st.container(border=True):
-    st.markdown("<h3 style='text-align: center; color: #030303'>Why I want to join IFROS?</h3>", unsafe_allow_html=True)
-    video_link1 = "https://www.youtube.com/watch?v=Foz0KEICWro"
-    st.video(data=video_link1, format="video/mp4", start_time=0)
-with st.container(border=True):
     st.markdown("<h3 style='text-align: center; color: #030303'>My related projects to the IFROS</h3>",
                 unsafe_allow_html=True)
-    video_link2 = "https://www.youtube.com/watch?v=aQhSeiI4WhU&t=776s"
+    video_link2 = "https://youtu.be/d4LtE8lvCkk"
     st.video(data=video_link2, format="video/mp4", start_time=0)
+with st.container(border=True):
+    st.markdown("<h3 style='text-align: center; color: #030303'>Why I want to join IFROS?</h3>", unsafe_allow_html=True)
+    video_link1 = "https://youtu.be/igLgakcYkQo"
+    st.video(data=video_link1, format="video/mp4", start_time=0)
 
 st.markdown("<hr style='border: 1px solid #292929;'>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: #030303'>Contents</h1>", unsafe_allow_html=True)
